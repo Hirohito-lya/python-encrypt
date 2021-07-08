@@ -12,6 +12,7 @@ if inp == "1":
     hsh = sif.hexdigest()
     time.sleep(2)
     print(hsh)
+    time.sleep(30)
 elif inp == "2":
     sif = hasher.md5()
     tx = input('Şifrelenecek metni giriniz: ')
@@ -19,3 +20,7 @@ elif inp == "2":
     hsh = sif.hexdigest()
     time.sleep(2)
     print(hsh)
+    time.sleep(30)
+else:
+    print('Yanlış seçim yaptınız')
+    time.sleep(2)
